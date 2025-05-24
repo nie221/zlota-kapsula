@@ -85,3 +85,19 @@ button:hover {
 body { max-width: 100%; margin: auto; }
 .menu { display: flex; flex-wrap: wrap; }
 .zakladka { width: 100%; }
+
+
+/* Jadeitowe okienka wspomnień */
+.wspomnienie {
+  background: linear-gradient(135deg, #00a86b, #50c878);
+  border: 3px solid #008b5d;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 138, 93, 0.3);
+  color: #fff;
+  transition: transform 0.3s;
+}
+.wspomnienie:hover {
+  transform: scale(1.02);
+}
