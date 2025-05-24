@@ -46,5 +46,27 @@
     <button onclick="setTheme('theme-yellow')">Czarno-Żółty</button>
   </div>
   <script src="theme.js"></script>
+
+<div style="position:fixed;bottom:10px;left:10px;">
+  <select id="themeSelector" onchange="changeTheme(this.value)">
+    <option value="default">Czarno-Zielony</option>
+    <option value="blue">Czarno-Niebieski</option>
+    <option value="purple">Czarno-Fioletowy</option>
+    <option value="gold">Czarno-Złoty</option>
+  </select>
+</div>
+
+<script>
+function changeTheme(theme) {
+  document.body.className = 'theme-' + theme;
+  localStorage.setItem('theme', theme);
+}
+document.addEventListener("DOMContentLoaded", () => {
+  const savedTheme = localStorage.getItem('theme') || 'default';
+  document.body.className = 'theme-' + savedTheme;
+  document.getElementById('themeSelector').value = savedTheme;
+});
+</script>
 </body>
+
 </html>

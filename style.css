@@ -184,3 +184,27 @@ body.theme-yellow {
   color: #fff;
 }
 
+
+
+/* Tylko tło strony zmieniające się w zależności od motywu */
+
+/* Zielony motyw */
+body.theme-default {
+  background-color: #001a00;
+}
+
+/* Niebieski motyw */
+body.theme-blue {
+  background-color: #001f3f;
+}
+
+/* Fioletowy motyw */
+body.theme-purple {
+  background-color: #1a0033;
+}
+
+/* Złoty motyw */
+body.theme-gold {
+  background-color: #333300;
+}
+
