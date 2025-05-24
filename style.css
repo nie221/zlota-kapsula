@@ -79,3 +79,9 @@ button:hover {
 .memoryItem:last-child {
     border-bottom: none;
 }
+
+
+/* Responsywność */
+body { max-width: 100%; margin: auto; }
+.menu { display: flex; flex-wrap: wrap; }
+.zakladka { width: 100%; }
