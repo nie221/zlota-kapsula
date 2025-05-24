@@ -101,3 +101,10 @@ body { max-width: 100%; margin: auto; }
 .wspomnienie:hover {
   transform: scale(1.02);
 }
+
+
+/* Motywy kolorystyczne */
+body.theme-default { background-color: #000; color: #0f0; }
+body.theme-blue { background-color: #000; color: #00f; }
+body.theme-purple { background-color: #000; color: #800080; }
+body.theme-yellow { background-color: #000; color: #ff0; }
