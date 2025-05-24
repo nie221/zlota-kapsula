@@ -108,3 +108,51 @@ body.theme-default { background-color: #000; color: #0f0; }
 body.theme-blue { background-color: #000; color: #00f; }
 body.theme-purple { background-color: #000; color: #800080; }
 body.theme-yellow { background-color: #000; color: #ff0; }
+
+
+/* Pełne motywy GUI */
+
+/* Zielony motyw */
+body.theme-default .wspomnienie,
+body.theme-default .menu-boczne {
+  background: linear-gradient(135deg, #00a86b, #50c878);
+  border-color: #008b5d;
+}
+body.theme-default {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Niebieski motyw */
+body.theme-blue .wspomnienie,
+body.theme-blue .menu-boczne {
+  background: linear-gradient(135deg, #0033cc, #3399ff);
+  border-color: #003399;
+}
+body.theme-blue {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Fioletowy motyw */
+body.theme-purple .wspomnienie,
+body.theme-purple .menu-boczne {
+  background: linear-gradient(135deg, #800080, #a020f0);
+  border-color: #4b0082;
+}
+body.theme-purple {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Żółty motyw */
+body.theme-yellow .wspomnienie,
+body.theme-yellow .menu-boczne {
+  background: linear-gradient(135deg, #cccc00, #ffff00);
+  border-color: #999900;
+}
+body.theme-yellow {
+  background-color: #000;
+  color: #fff;
+}
+
